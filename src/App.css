@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.cardStyle {
+  background-color: rgb(215, 231, 245) !important;
+  border-radius: 5% !important;
+  border-width: thin;
+  height: 22rem;
+  overflow: hidden;
+  box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cardStyle:hover {
+  border-width: thick;
+}
