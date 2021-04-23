@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { React, Component } from 'react';
-import { Card, Col, Container, Nav, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
 export default class App extends Component {
 
@@ -44,6 +43,7 @@ export default class App extends Component {
                   </Col>
                 ))}
               </Row>
+              <div>Powered by ScoreBat.</div>
             </Container>)
         }
       </div >
